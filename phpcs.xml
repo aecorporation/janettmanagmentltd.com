@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+    <ruleset name="Divineoreole">
+            <description>Mes règles de formattage</description>
+
+            <arg name="colors"/>
+            <arg value="p"/>
+
+            <file>aec_src</file>
+            <rule ref="PSR2"></rule>
+    </ruleset>

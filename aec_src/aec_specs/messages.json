@@ -1,0 +1,747 @@
+{
+    "fr":{
+        "insertSuccess":"Enregistrement éffectué",
+        "subscribeSuccess" : "Inscription éffectuée",
+        "deleteSuccess" : "Suppression éffectuée",
+        "updateSuccess" : "Modification éffectué",
+        "insertError" : "Enregistrement échoué",
+        "subscribeError" : "Inscription échouée",
+        "deleteErro1" : "Suppression échouée",
+        "updateErro" : "Modification échouée",
+        "sendOk" : "Envoi éffectué",
+        "activateOk" : "Félicitation, votre compte est maintenant activé. Désormais, Vous pouvez vous connecter",
+        "activeNONE" : "Désolé, un probleme est survenu lors de l'activation de votre compte. Veuillez contacter le service client...",
+        "connected":"Connexion éffectuée...",
+        "noConnected":"Parametres inconnus",
+
+        "header":{
+
+            "title": "LET YOUR HALO SHINE",
+            "my_cart":"Mon panier",
+            "mob_menu_categ":"CATEGORIES DE PROODUITS",
+            "mob_menu_site":"MENU DU SITE",
+            "menu_titre":"Produits par catégorie",
+
+            "menus_row1":[
+                {
+                    "name":"Produits",
+                    "icon":"fa fa-list"
+                },
+                {
+                    "name":"Accueil",
+                    "url_name":"front.accueil",
+                    "icon":"fa fa-home"
+                },
+                {
+                    "name":"Qui somems-nous ?",
+                    "url_name":"front.quisommesnous",
+                    "icon":"fa fa-bookmark"
+                },
+                {
+                    "name":"Contact",
+                    "url_name":"front.contact",
+                    "icon":"fa fa-phone"
+                }
+               
+            ],
+
+            "menus_row2":[
+                {
+                    "name":"Mon panier",
+                    "url_name":"front.Panier",
+                    "icon":"fa fa-shopping-cart"
+                }
+               
+            ],
+
+            "menus_row3":[
+                {
+                    "name":"Faq",
+                    "url_name":"front.faq",
+                    "icon":"fa fa-question-circle"
+                },
+                {
+                    "name":"Solde",
+                    "url_name":"front.solde",
+                    "icon":"fa fa-bookmark"
+                },
+                {
+                    "name":"Rayons",
+                    "url_name":"front.rayons",
+                    "icon":"fa fa-book"
+                },
+                {
+                    "name":"Accueil",
+                    "url_name":"front.accueil",
+                    "icon":"fa fa-home"
+                }
+              
+                
+              
+            ]
+
+            },
+        
+        "body":{
+            "accueil":{
+                "text_1":"LET YOUR HALO SHINE",
+                "btn_collection":"Voir la collection",
+                "btn_see":"Voir"
+            },
+            "qsn":{
+            },
+            "contact":{
+                "text_1":"CONTACTEZ-NOUS",
+                "text_2":"NOTRE BUREAU",
+                "text_3":"LOCALISATION",
+                "title":"CONTACTEZ-NOUS",
+                "mail":"Email",
+                "tel":"Téléphone",
+                "cel":"Mobile",
+                "btn":"Envoyer",
+                "selects":{
+                    "lab":"Vous êtes",
+                    "values":["Particulier", "Entreprise"]
+                },
+                "inputs":[
+                    "Raison sociale", 
+                    "Nom","Prénoms", 
+                    "N° Téléphone", "N° Mobile", 
+                    "Pays", "Ville",
+                    "Adresse", "E-mail",
+                    "Objet du message", "Votre message"
+                ]
+
+            },
+            "panier":{
+                "text_1":"VOTRE PANIER () PRODUITS",
+                "text_2":"Identification du produit",
+                "mont_1":"Montant",
+                "mont_2":"Montant (HT)",
+                "mont_3":"Montant (HTTC)",
+                "qte":"Quantité",
+                "pay":"Net à Payer",
+                "btn":"Finaliser ma commande"
+            },
+            "confirm":{
+
+                "name":"CONFIRMATION",
+                "url_name":"front.Panier_confirmation",
+
+                "text_1":"VALIDATION DE COMMANDE",
+                "text_2":"REFERENCE DE LA COMMANDE",
+                "info_refs":[
+                    "Référence",
+                    "Nombre d'articles",
+                    "Montant de la commande"
+                ],
+                "text_3":"LISTE DES PRODUITS DU PANIER",
+                "text_4":"IDENTIFICATION DE L'ACHETEUR",
+                "inputs":[
+                    "Nom et prénoms",
+                    "Adresse email",
+                    "N° mobile",
+                    "Adresse",
+                    "Pays",
+                    "Ville",
+                    "N° téléphone"
+                ],
+                "btn":"Valider ma commande"
+            },
+
+            "product":{
+                "text_1":"LIVRAISON GARANRIE SOUS 78H",
+                "text_2":"RETOUR DE MARCHANDISES GRATUITS SOUS 30 JRS",
+                "text_3":"PRODUITS PERSONNALISÉS",
+                "text_4":"PRODUITS PERSONNALISÉS",
+                "text_5":"Description & Détails du produits",
+                "text_6":"ARTICLES POUVANT VOUS INTERESSER",
+                "cat":"Catégorie",
+                "col":"Couleur",
+                "size":"Taille",
+                "mat":"Matière",
+                "btn":"Ajouter au panier"
+
+            }
+
+
+
+        },
+        
+        "footer":{
+
+                "newsletter_title":"INSCRIS-TOI POUR RECEVOIR LES DERNIÈRES SORTIES & NOUVEAUTÉS",
+                "newsletter_title_form":"INSCRIPTION A LA NEWSLETTER",
+                "newsletter_title_btn":"S'INSCRIRE",
+
+                "author":"Design & powered by &copy; aeCorporation",
+                "text_reserved":"Tous Droits réservés © divineoreole.com - 2020",
+                "inscrire":"S'inscrire",
+                "newsletter":"newsletter",
+
+                "menus":[
+                    {
+                        "title":"SERVICE CLIENT",
+                        "list":[
+                            {
+                                "name":"Aide / FAQ "
+                            },
+                            {
+                                "name":"Commandes & Livraison"                            },
+                            {
+                                "name":"Remboursement & conditions de retour"
+
+                            }
+                        ]
+                    },
+                    {
+                        "title":"A PROPOS DE NOUS",
+                        "list":[
+                            {
+                                "name":"Intégrer notre équipe"
+                            },
+                            
+                            {
+                                "name":"Notre politique entrepreunariale"
+
+                            }
+                          
+                        ]
+                    },
+
+                    {
+                        "title":"JURIDIQUE",
+                        "list":[
+                            {
+                                "name":"Code Ethique"
+                            },
+                            {
+                                "name":"Politique de confidentialité"
+                            },
+                            {
+                                "name":"Conditions générales d'utilisation"
+
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+
+            "admin":{
+                "menus":[
+                    {
+                        "title":"Accueil",
+                        "sous_menu":[
+                            {
+                             "title":"Tableau de bord",
+                             "Description":"Tableau de bord"
+                            }
+                        ]                    },
+                    {
+                        "title":"Administration",
+                        "sous_menu":[
+                            {
+                             "title":"Gestion",
+                             "Description":"Gestion de l'administration"
+                            }
+                        ]
+                    },
+                    {
+                        "title":"Produits",
+                       "sous_menu":[
+                           {
+                            "title":"Liste",
+                            "Description":"Liste des produits"
+                           },
+                           {
+                            "title":"Enregistrer",
+                            "Description":"Enregistrer un produit"
+                           },
+                           {
+                            "title":"Gestion catégories",
+                            "Description":"Gérer les catégories de produits"
+                           }
+                       ]
+                    },
+                    {
+                        "title":"Collections",
+                       "sous_menu":[
+                           {
+                            "title":"Liste",
+                            "descriptipn":""
+                           },
+                           {
+                            "title":"Enregistrer",
+                            "description":""
+                           }
+                       ]
+                    },
+                    {
+                        "title":"Clients",
+                       "sous_menu":[
+                           {
+                            "title":"Clients",
+                            "description":""
+                           }
+                       ]
+                    },
+                    {
+                        "title":"Commandes",
+                       "sous_menu":[
+                           {
+                            "title":"En attente",
+                            "description":""
+                           },
+                           {
+                            "title":"Traitées",
+                            "description":""
+                           },
+                           {
+                            "title":"Rejetées",
+                            "description":""
+                           },
+                           {
+                            "title":"Archivées",
+                            "description":""
+                           }
+                       ]
+                    },
+                    {
+                        "title":"Newsletter",
+                       "sous_menu":[
+                           {
+                            "title":"Liste et envoi",
+                            "description":""
+                           }
+                           
+                       ]
+                    },
+                    {
+                        "title":"MENU DU SITE",
+                       "sous_menu":[
+                           {
+                            "title":"Qui sommes-nous?",
+                            "description":""
+                           },
+                           {
+                            "title":"Contact",
+                            "description":""
+
+                           },
+                           {
+                            "title":"Slide-show",
+                            "description":""
+                           },
+                           {
+                            "title":"Image & pubs & video",
+                            "description":""
+                           }
+                       ]
+                    }
+                ],
+                "body":{
+                    "dashbord":{
+                        "title":"Tableau de bord",
+                        "text_1":"PRODUITS",
+                        "text_2":"COMMANDES",
+                        "text_3":"COLLECTIONS",
+                        "list_text":"COMMANDES EN ATTENTE",
+                        "list_prod_text":"ARTICLES LES PLUS COMMANDES"
+                    },
+                    "messagerie":{
+                        "title":"Gestion de la messagerie",
+                        "title_search":"RECHERCHE",
+                        "result":"Résultat",
+                        "btn":"Enregistrer",
+                        "form_search":["De", "A", "Expression à réchercher"],
+                        "table":[
+                            "Nom & prénoms",
+                            "E-mail",
+                            "Objet"
+                        ],
+                        "titles":[
+                            "Liste des messages",
+                            "Editer un message"
+                        ],
+                        "inputs":[
+                            "Type", 
+                            "Raison sociale", 
+                            "Nom & prénoms", 
+                            "Contact(s)", 
+                            "Pays / Ville",
+                            "Adresse", 
+                            "E-mail",
+                            "Objet du message", 
+                            "Message"
+                        ]
+                        
+                },
+
+                "notification":{
+                    "title":"Notification de commandes",
+                    "title_search":"RECHERCHE",
+                        "result":"Résultat",
+                        "btn":"Enregistrer",
+                        "form_search":["De", "A"],
+                        
+                        "titles":[
+                            "Notifications des commandes"
+                        ]
+
+                },
+                    "administration":{
+                            "title":"Gestion des administrateurs",
+                            "title_search":"RECHERCHE ADMINISTRATEURS",
+                            "privilege_search":"RECHERCHE privilege",
+                            "result":"Résultat",
+                            "btn":"Enregistrer",
+                            "form_search":["De", "A"],
+                            "table":[
+                                "image",
+                                "Nom & prénoms",
+                                "Contact"
+                            ],
+                            "titles":[
+                                "Liste des administrateurs",
+                                "Enregistrer un administrateur",
+                                "Apercu d'administrateur",
+                                "Attribution de menus & actions",
+                                "Ajouter un nouveau privilege",
+                                "Liste des menus et actions",
+                                "Consulter les privileges"                           
+                            ],
+                            "onglets":[
+                                "Accueil", "Attribuer menus et actions", "Gestion de privileges"
+                            ],
+                            "privilegesInputs":["Nom du privilege", "Description du privilege"],
+                            "inputs":[
+                                "Image",
+                                "Nom & prénoms",
+                                "Contact",
+                                "E-mail",
+                                "Fonction",
+                                "Privilege"
+                            ]
+                    },
+                    "produits":{
+                        "list_produits":{
+                            "title":"Liste des produits",
+                            "title_search":"RECHERCHE",
+                            "result":"Résultat",
+                            "form_search":[
+                                "De", "A", "Cetégorie / Sous-catégorie", "Expression"
+                            ],
+                            "table":[
+                                "Réf", "Image", "Désignation produit", "Qté produit", "Prix unitaire", "Prix Total", "Cetégorie / Sous-catégorie"
+                            ]
+                        },
+                        "save_produits":{
+                            "title":"Enregistrement de produits",
+                            "titles":[
+                                "Information du produit",
+                                "Référence du produit",
+                                "Couleur du produit",
+                                "Taille du produit",
+                                "Images du produit"
+                            ],
+                            "inputs":[
+                                "Nom du produit",
+                                "Prix du produit",
+                                "Catégorie / Sous catégorie",
+                                "Description du produit"
+                            ]
+                        },
+                        "gestion_categorie":{
+                            "title":"Gestion de catégories de produits",
+                            "btn":"Enregistrer",
+                            "titles":[
+                                "Enregistrer une catégorie",
+                                "Enregistrer une sous-catégorie",
+                                "Organigramme des catégories et sous-catégorie"
+                            ],
+                            "inputs":[
+                                "Libéllé",
+                                "Catégorie"
+                            ]
+                        }
+                        
+                    },
+                    "collections":{
+                        "list_collections":{
+                            "title":"Liste de collections de produits",
+                            "title_search":"RECHERCHE",
+                            "result":"Résultat",
+                            "form_search":[
+                                "De", "A", "Expression"
+                            ],
+                            "table":[
+                                "Réf", "Image", "Titre", "Déescription"
+                            ],
+                            "see":"Voir",
+                            "upload":"Charger"
+                        },
+                        "save_collections":{
+                            "title":"Enregistrement de collections de produits",
+                            "titles":[
+                                "Information de la collection",
+                                "Apercu de l'image",
+                                "Attribuer des produits aux collection",
+                                "Liste des produits"
+                            ],
+                            "inputs":[
+                                "Image de la collection",
+                                "Nom de la collection",
+                                "Description de la collection",
+                                "Choisir une collection",
+                                "Réchercher des produits"
+                            ],
+                            "btns":[
+                                "Enregistrer"
+                            ],
+                            "text":["Réch", "Collect"]
+                        }
+                    },
+                    "user":{
+                        
+                        "list_clients":{
+                            "title":"Liste des clients",
+                            "title_search":"RECHERCHE",
+                            "result":"Résultat",
+                            "form_search":[
+                                "De", "A", "Pays / ville", "Expression"
+                            ],
+                            "table":[
+                                "Date enreg", "Nom & Prénoms", "Contact", "Email", "Adresse", "Pays / ville"
+                            ]
+                        }
+                    },
+                    "commandes":{
+                        
+                        "list_commande":{
+                            "title":"Liste des commandes ",
+                            "title_search":"RECHERCHE",
+                            "result":"Résultat",
+                            "total":"Montant total",
+                            "form_search":[
+                                "De", "A", "Expression"
+                            ],
+                            "table":[
+                                "Date cmd", "Référence cmd", "Nbre produits", 
+                                "Montant", "Nom client", "Contact / E-mail"
+                            ]
+                        },
+                        "details_commande":{
+                            "title":"Détails de la commande "
+                            
+                        }
+                    },
+                    "newsletter":{
+                        "list_envoi":{
+                            "title":"Gestion de newsletter",
+                            "title_search":"RECHERCHE",
+                            "result":"Résultat",
+                            "form_search":[
+                                "De", "A"
+                            ],
+                            "table":[
+                                "Date", "E-mail"
+                            ]
+                        }
+                        
+                    },
+                    "site":{
+                        "qsn":{
+                            "title":"Qui sommes-nous",
+                            "btn":"Enregistrer",
+                            "titles":[
+                                "Premier paragraphe",
+                                "Deuxième paragraphe",
+                                "Troisième paragraphe"
+                            ],
+                            "inputs":[
+                                "Image",
+                                "Titre",
+                                "Date",
+                                "Sous-titre",
+                                "Description",
+
+                                "Image",
+                                "Titre",
+                                "Description",
+                                "Image"
+                            ]
+                        },
+                        "contact":{
+                            "title":"Contact",
+                            "btn":"Enregistrer",
+                            "titles":[
+                                "Notre bureau",
+                                "Apercu de la géolocalisation"
+                            ],
+                            "inputs":[
+                                "Site geographique",
+                                "E-mail",
+                                "Date",
+                                "Téléphone",
+                                "Mobile",
+
+                                "Localisation"
+                            ]
+                        },
+                        "slide_show":{
+                            "title":"Slide-show",
+                            "title_search":"RECHERCHE",
+                            "result":"Résultat",
+                            "btn":"Enregistrer",
+                            "form_search":["De", "A"],
+                            "table":[
+                                "image",
+                                "Titre"
+                            ],
+                            "titles":[
+                                "Liste des slides show",
+                                "Enregistrer une image en slide show",
+                                "Apercu de slide show"
+                            ],
+                            "inputs":[
+                                "Image",
+                                "Titre",
+                                "Description",
+                                "Lien"
+                            ]
+                        },
+                        "img_pub_video_1":{
+                            "title":"Imagerie, Pubs & Vidéos",
+                            "title_search":"RECHERCHE",
+                            "result":"Résultat",
+                            "btn":"Enregistrer",
+                            "form_search":["De", "A"],
+                            "table":[
+                                "image",
+                                "Titre",
+                                "Montant"
+                            ],
+                            "titles":[
+                                "Liste des expositions de produit",
+                                "Enregistrer une exposition de produit",
+                                "Apercu de l'exposition de produit"
+                            ],
+                            "inputs":[
+                                "Image",
+                                "Titre",
+                                "Description",
+                                "Prix"
+                            ]
+                        },
+                        "img_pub_video_2":{
+                            
+                            "title_search":"RECHERCHE",
+                            "result":"Résultat",
+                            "btn":"Enregistrer",
+                            "form_search":["De", "A"],
+                            "table":[
+                                "image",
+                                "Titre",
+                                "Montant"
+                            ],
+                            "titles":[
+                                "Liste des affiches publicitaires",
+                                "Enregistrer une affiche",
+                                "Apercu de l'affiche"
+                            ],
+                            "inputs":[
+                                "Image",
+                                "Titre",
+                                "Description"
+                            ]
+                        },
+                        "img_pub_video_3":{
+                            
+                            "title_search":"RECHERCHE",
+                            "result":"Résultat",
+                            "btn":"Enregistrer",
+                            "form_search":["De", "A"],
+                            "table":[
+                                "image",
+                                "Titre",
+                                "Montant"
+                            ],
+                            "titles":[
+                                "Liste des videos",
+                                "Enregistrer une video",
+                                "Apercu de la video"
+                            ],
+                            "inputs":[
+                                "Lien",
+                                "Titre",
+                                "Description"
+                            ]
+                        }
+                        
+                    }
+
+                }
+            }
+
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    "en":{
+
+
+        
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

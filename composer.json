@@ -1,0 +1,22 @@
+{
+    "name": "developpement/divineoreole.com",
+    "authors": [
+        {
+            "name": "aecorporation",
+            "email": "aecweb225@gmail.com"
+        }
+    ],
+    "require": {
+        "robmorgan/phinx": "^0.12.4",
+        "fzaninotto/faker": "^1.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "aeCorp\\":"./"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.3",
+        "squizlabs/php_codesniffer": "*"
+    }
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<phpunit boostrap="./vendor/autoload.php" colors="true">
+  <testsuites>
+    <testsuite name="Divineoreole">
+      <directory>./aec_src/aec_tests</directory>
+    </testsuite>
+    <filter>
+      <whitelist proceessUnCoveredFromWhitelist="true">
+        <directory suffix=".php">.aec_src</directory>
+      </whitelist>
+    </filter>
+  </testsuites>
+</phpunit>

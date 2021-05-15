@@ -1,0 +1,36 @@
+
+ /*Annonces*/
+
+ .annonce_une, .annonce_une_new,  .annonce_une_buy {
+    height: 150px;
+    overflow: hidden;
+    border:0;
+    float:left;
+ }
+ 
+ .annonce_une ul, .annonce_une_new ul,  .annonce_une_buy ul {
+     /* 4 images donc 4 x 100% */
+    width: 100%;
+     height: 150px;
+    padding:0; margin:0;
+    list-style: none;
+    border: 0px solid red;
+ }
+ 
+  .annonce_une ul li, .annonce_une_new ul li, .annonce_une_buy ul li {
+    float: left;
+    margin:0px 5px 0px 5px;
+    width:200px;
+     height: 150px;
+    word-wrap:normal;
+ }
+ 
+ .annonce_une ul li img, .annonce_une_new ul li img, .annonce_une_buy ul li img{ 
+     width:200px;
+     height:150px;
+ }
+
+ .annonce_une ul li embed, .annonce_une_new ul li embed, .annonce_une_buy ul li embed{ 
+     width:200px;
+     height:150px;
+ }

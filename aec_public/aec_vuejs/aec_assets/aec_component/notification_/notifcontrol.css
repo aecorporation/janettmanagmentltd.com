@@ -1,0 +1,39 @@
+export const NotifControl = {
+
+    init : function(effects, ajax){
+
+        this.effects = effects;
+        this.ajax = ajax;
+        this.selector = document.querySelector("#notifContainer");
+    },
+    executeHide : function(url){
+        
+        this.selector.style.right="-100%";
+        this.selector.style.transition="linear 500ms";
+        setTimeout(()=>{
+            this.effects.hideBg();
+            $("#notifContainer").fadeIn(100);
+        }, 500);
+
+    },
+    executeShow : function(url){
+
+        this.effects.showBg();
+        $("#notifContainer").fadeIn(100);
+        this.selector.style.right="0%";
+        this.selector.style.transition="linear 500ms";
+
+        let componentSection = document.querySelector("[aec-views-container='notification']");
+        componentSection.innerHTML=this.effects.loading();
+
+        this.ajax.get(url).then(function(data, event){
+            setTimeout(()=>{
+                componentSection.innerHTML=data;
+             }, 500);
+        }).catch(function(err){
+            console.log(error);
+        })
+
+    }
+};
+
